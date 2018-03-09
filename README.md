@@ -269,6 +269,21 @@ sudo pkg install viewnior
 
 ```
 
+# Compressor (Archiver)
+
+Fileroller from Gnome is good. But `xarchiver` does the job for me.
+
+```
+pkg install xarchiver
+
+```
+
+# Network
+ 
+Still run using the base WiFi during the setup. Need to add `network-manager` to manage the network.
+
+![Network sans manager](https://github.com/indykish/freebsd/blob/master/images/network_sans_manager.png)
+
 # The configuration files
 
 Assumptions in the folder structure posted.
