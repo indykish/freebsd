@@ -1,0 +1,14 @@
+[user]
+	name = Kishorekumar Neelamegam
+	email = kishore.neelamegam@rio.company
+[core]
+	excludesfile = /usr/home/ram/.gitignore_global
+	editor = ee
+[push]
+	default = simple
+[http]
+	postBuffer = 524288000
+[color]
+	ui = true
+[url "git://git.debian.org/d-i/"]
+	insteadOf = git+ssh://git.debian.org/git/d-i/

@@ -1,0 +1,2 @@
+rvm_autoupdate_flag=2
+export rvm_max_time_flag=20

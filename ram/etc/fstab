@@ -1,0 +1,5 @@
+# Device	Mountpoint	FStype	Options	Dump	Pass#
+/dev/ada0a	/		ufs	rw	1	1
+/dev/ada0b	none		swap	sw	0	0
+proc		/proc		procfs	rw	0	0
+tmpfs		/tmpfs		tmpfs	rw,mode=777	0	0
