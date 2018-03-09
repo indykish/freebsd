@@ -261,6 +261,8 @@ sudo pkg install chromium
 
 # Picture viewer
 
+I find `viewnior` better than `EyeOfGnome` as it easy of memory.
+
 ```
 
 sudo pkg install viewnior
@@ -269,14 +271,16 @@ sudo pkg install viewnior
 
 # The configuration files
 
-`ram` is my $HOME = */usr/home/ram` 
-`ram/etc` actually resides `/etc`
-`ram/usr/local/etc` resides in `/usr/local/etc`
+Assumptions in the folder structure posted.
 
-[/etc/rc.conf](https://github.com/indykish/freebsd/blob/master/ram/etc/rc.conf)
-[~/.bashrc](https://github.com/indykish/freebsd/blob/master/ram/.bashrc)
-[~/.profile](https://github.com/indykish/freebsd/blob/master/ram/.profile)
-[~/.gemrc](https://github.com/indykish/freebsd/blob/master/ram/.gemrc)
-[~/.rvmrc](https://github.com/indykish/freebsd/blob/master/ram/.rvmrc)
-[All](https://github.com/indykish/freebsd/tree/master/ram)
+- `ram` is my $HOME = */usr/home/ram* 
+- `ram/etc` actually resides */etc*
+- `ram/usr/local/etc` resides in */usr/local/etc*
+
+- [/etc/rc.conf](https://github.com/indykish/freebsd/blob/master/ram/etc/rc.conf)
+- [~/.bashrc](https://github.com/indykish/freebsd/blob/master/ram/.bashrc)
+- [~/.profile](https://github.com/indykish/freebsd/blob/master/ram/.profile)
+- [~/.gemrc](https://github.com/indykish/freebsd/blob/master/ram/.gemrc)
+- [~/.rvmrc](https://github.com/indykish/freebsd/blob/master/ram/.rvmrc)
+- [All](https://github.com/indykish/freebsd/tree/master/ram)
 
