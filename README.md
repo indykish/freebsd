@@ -137,6 +137,15 @@ pkg install node
 
 ```
 
+## Yarn
+
+[Install 1.5.x](https://yarnpkg.com/en/docs/install)
+
+```
+curl -o- -L https://yarnpkg.com/install.sh | bash
+
+```
+
 # Ruby
 
 This isn't as sweet as imagined pretty easy but will become difficult when `opam 2.0` is released. 
