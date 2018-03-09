@@ -200,7 +200,7 @@ pkg install asciinema
 
 ```
 
-# Editors 
+# Editors
 
 With modern editors picking up, this has been a major hassle for folks to move. 
 
@@ -219,7 +219,13 @@ Unfortunately this is commercial software. But supports well.
 
 The following `Package Control` will come in handy.
 
-- 
+- [Better OCAML](https://packagecontrol.io/packages/Better%20OCaml)
+- [Golang Build](https://packagecontrol.io/packages/Golang%20Build)
+- [Rust Enhanced](https://packagecontrol.io/packages/Rust%20Enhanced)
+- [SideBar Tools](https://packagecontrol.io/packages/SideBarTools)
+- [Dark Monokai Theme applied in the Sidebar](https://github.com/eneko89/sublime-monokai-sidebar)
+
+![Sublime 3 with needed packages](https://github.com/indykish/freebsd/blob/master/images/sublime_packagecontrol.png)
 
 # Atom Xray - not ready yet
 
@@ -260,10 +266,14 @@ sudo pkg install viewnior
 
 # The configuration files
 
-[/etc/rc.conf]()
-[~/.bashrc]()
-[~/.profile]()
-[~/.gemrc]()
-[~/.rvmrc]()
-[All File]()
+`ram` is my $HOME = */usr/home/ram` 
+`ram/etc` actually resides `/etc`
+`ram/usr/local/etc` resides in `/usr/local/etc`
+
+[/etc/rc.conf](https://github.com/indykish/freebsd/blob/master/ram/etc/rc.conf)
+[~/.bashrc](https://github.com/indykish/freebsd/blob/master/ram/.bashrc)
+[~/.profile](https://github.com/indykish/freebsd/blob/master/ram/.profile)
+[~/.gemrc](https://github.com/indykish/freebsd/blob/master/ram/.gemrc)
+[~/.rvmrc](https://github.com/indykish/freebsd/blob/master/ram/.rvmrc)
+[All](https://github.com/indykish/freebsd/tree/master/ram)
 
