@@ -11,7 +11,7 @@ This is going to come handy for anybody who uses FreeBSD 11.x > as their develop
 
 After installation you will see a console prompt as here. 
 
-[UI]()
+![UI](https://github.com/indykish/freebsd/blob/master/images/gnome3_lite.png)
 
 # Gnome3
 
@@ -31,7 +31,7 @@ Then follow the instructions here
 
 ## How to do pkg install ?
 
-https://asciinema.org/a/gby5ujfkX9dT13cSW1fkCnNcS
+[Watch this](https://asciinema.org/a/gby5ujfkX9dT13cSW1fkCnNcS)
 
 ## XOrg
 
@@ -123,7 +123,7 @@ opam switch 4.06.1
 
 ```
 
-[]()
+![OCAML 4.06.1 FreeBSD](https://github.com/indykish/freebsd/blob/master/images/ocaml.png)
 
 # Nodejs
 
@@ -214,6 +214,12 @@ If you have the time the compile [vscode` from source](https://gist.github.com/p
 # Sublime Text
 
 Unfortunately this is commercial software. But supports well.
+
+![Sublime 3 In Action](https://github.com/indykish/freebsd/blob/master/images/sublime_text.png)
+
+The following `Package Control` will come in handy.
+
+- 
 
 # Atom Xray - not ready yet
 
