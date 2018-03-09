@@ -5,7 +5,7 @@ This is going to come handy for anybody who uses FreeBSD 11.x > as their develop
 
 # When installing
 
-[] Make sure you add the user you the group `wheel`
+[] Make sure you add the user (*in my case - the user* is named as  **ram**) to the group `wheel`
 
 # Upon installation
 
@@ -257,7 +257,7 @@ No vivaldi or brave
 ```
 sudo pkg install chromium
 
-``
+```
 
 # Picture viewer
 
