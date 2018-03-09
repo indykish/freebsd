@@ -204,6 +204,9 @@ pkg install asciinema
 
 With modern editors picking up, this has been a major hassle for folks to move. 
 
+## Text editor
+
+If you are used to `vi then  great. But there is another editor `ee` which works better than `nano`
 
 ## VSCode
 
