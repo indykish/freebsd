@@ -31,7 +31,7 @@ Then follow the instructions here
 
 ## How to do pkg install ?
 
-[Watch this](https://asciinema.org/a/gby5ujfkX9dT13cSW1fkCnNcS)
+[![Watch this](https://asciinema.org/a/gby5ujfkX9dT13cSW1fkCnNcS.png)](https://asciinema.org/a/gby5ujfkX9dT13cSW1fkCnNcS)
 
 ## XOrg
 
@@ -217,13 +217,13 @@ With modern editors picking up, this has been a major hassle for folks to move.
 
 If you are used to `vi then  great. But there is another editor `ee` which works better than `nano`
 
-## VSCode
+### VSCode
 
 The editor support is picky. 
 
 If you have the time the compile [vscode` from source](https://gist.github.com/prash-wghats/89be1ee069d2acf23c289e9c606616e1) 
 
-# Sublime Text
+### Sublime Text
 
 Unfortunately this is commercial software. But supports well.
 
@@ -239,15 +239,15 @@ The following `Package Control` will come in handy.
 
 ![Sublime 3 with needed packages](https://github.com/indykish/freebsd/blob/master/images/sublime_packagecontrol.png)
 
-# Atom Xray - not ready yet
+### Atom Xray - not ready yet
 
 We need to keep a tab on this project [https://github.com/atom/xray](https://github.com/atom/xray)
 
-# C9 IDE - using containers
+### C9 IDE - using containers
 
 This is a nodejs project (C9 IDE)[https://github.com/c9/core]
 
-# Gnome Builder
+### Gnome Builder
 
 Supports *C/C++, Python, Rust* - Yay. But not `OCaml, JS, Ruby`. 
 
@@ -259,12 +259,40 @@ pkg install gnome-builder
 
 ```
 
+### SlickEdit
+
+This is a great editor, kept up to a core developer experience. But commercial.
+
+[![Install SlickEdit using Linux bundle](https://asciinema.org/a/168519.png)](https://asciinema.org/a/168519)
+
+There is no FreeBSD bundle. You can download the 64 bit Linux bundle. See the AsciiCast in installing SlickEdit.
+
+```
+tar -xvf sestandard*.tar.gz
+
+cd sestandard*
+
+sudo brandelf -t Linux vsinst
+
+./vsinst
+
+```
+
 # Browser
 
 No vivaldi or brave
 
+Chromium is heavy
 ```
 sudo pkg install chromium
+
+```
+
+Firefox has the latest updated version and recommended.
+
+```
+
+sudo pkg install firefox
 
 ```
 
