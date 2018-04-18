@@ -94,6 +94,13 @@ if ${use_color} ; then
   LSCOLORS="ExGxFxdxCxDxDxhbadExEx";    export LSCOLORS  
 fi
 
+export XIM=ibus
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=xim
+export XMODIFIERS=@im=ibus
+export XIM_PROGRAM="ibus-daemon"
+export XIM_ARGS="--daemonize --xim"
+
 alias make=gmake
 
 # Try to keep environment pollution down, EPA loves us.
@@ -102,8 +109,13 @@ unset use_color safe_term match_lhs
 export MY_BIN_HOME=~/bin
 export GOPATH=~/.go
 export GOROOT=~/software/go
+export VSCODE=~/software/vscode
 
 export DOCKER_USER=indykish
+
+#RIOADVANCEMENT
+export NIL_MAILGUN_APIKEY=xxxx
+export NIL_SLACK_TOKEN=xxxx
 
 #OLD GPGKEY
 #export GPGKEY=B3E0C1B7
@@ -112,11 +124,7 @@ export GPGKEY=9B46B611
 
 export RIOOS_HOME=$HOME/code/rioos/home
 
-export PATH="$PATH:$MY_BIN_HOME:$GOROOT/bin:$GOPATH/bin" 
-
 export SODIUM_LIB_DIR=/usr/local/lib
-
-[[ -s "/usr/home/ram/.rvm/scripts/rvm" ]] && source "/usr/home/ram/.rvm/scripts/rvm"
 
 export DOCKER_HOST="tcp://127.0.0.1:2375"
 
@@ -124,7 +132,9 @@ export RUBY_GC_HEAP_INIT_SLOTS=600000
 export RUBY_GC_MALLOC_LIMIT=59000000
 export RUBY_GC_HEAP_FREE_SLOTS=100000
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/bin:$HOME/.cargo/bin:$MY_BIN_HOME:$GOROOT/bin:$GOPATH/bin:$HOME/.yarn/bin:$VSCODE/bin:$HOME/.rvm/bin"
 
 . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+
+[[ -s "/usr/home/ram/.rvm/scripts/rvm" ]] && source "/usr/home/ram/.rvm/scripts/rvm"
+
