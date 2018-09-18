@@ -215,7 +215,29 @@ With modern editors picking up, this has been a major hassle for folks to move.
 
 ## Text editor
 
-If you are used to `vi then  great. But there is another editor `ee` which works better than `nano`
+If you are used to `vim` then  great. But there is another editor `vi` which works better than `nano`
+
+### Vim
+
+This editor is great. I recently moved to this, and has been going strong.
+
+#### Tips
+
+- [Mastering VIM - YouTube](https://www.youtube.com/watch?v=wlR5gYd6um0&t=741s)
+
+- [Search & Replace in all files](https://stackoverflow.com/questions/4804405/search-and-replace-in-vim-across-all-the-project-files/38004355#38004355)
+
+```
+
+:cdo %s/<search term>/<replace term>/gc
+
+```
+
+Instead of :grep, you can setup `silversearch` and with keymap `<Leader> A` 
+ 
+- [Search & Replace in buffer](http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers)
+
+[Link to my vimrc](https://github.com/indykish/freebsd/blob/master/dotfiles/vimrc)
 
 ### VSCode
 
