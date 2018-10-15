@@ -229,6 +229,10 @@ This editor is great. I recently moved to this, and has been going strong.
 
 - [Silver searcher is deprecated, usage ack](https://stackoverflow.com/questions/4792561/how-to-do-search-replace-with-ack-in-vim#8744108)
 
+- [Search for matching brackets](https://unix.stackexchange.com/questions/30396/in-vim-search-backwards-for-matching-braces-parens)
+
+- [Automatically create matching brackets](https://unix.stackexchange.com/questions/54996/automatically-create-matching-braces-in-vim)
+
 ```
 
 :cdo %s/<search term>/<replace term>/gc
